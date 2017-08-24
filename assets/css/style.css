@@ -1,0 +1,75 @@
+body{
+	background-image: url(https://i.amz.mshcdn.com/yY2jTjk0EJKIDKYBx_i2Zq7bElI=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F121861%2FPincer.jpg);
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+header{
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#logo{
+	width: 600px;
+}
+
+.row{
+	background-color: white;
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+#selectPlayer{
+	text-align: center;
+	margin-top:50px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#playerList{
+	text-align: center;
+	margin: 0 auto;
+	border-top: solid 5px #5c6e79;
+	border-right: solid 5px #5c6e79;
+	border-left: solid 5px #5c6e79;
+	
+}
+
+.characterImage{
+	height: 100px;
+	width: 150px;
+	margin: 20px;
+	border: solid #000000 2px;
+	border-radius: 5px;
+}
+
+.characterBin{
+	display: inline-block;
+	text-align: center;
+}
+
+
+p{
+	position: relative;
+}
+
+#instructions{
+	padding: 25px;
+}
+
+#enemies{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#gameContent{
+	padding: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom: solid 5px #5c6e79;
+	border-right: solid 5px #5c6e79;
+	border-left: solid 5px #5c6e79;
+}
+
