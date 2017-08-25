@@ -62,8 +62,8 @@ function heroClick(){
 		if (!pickedHero){
 			heroId = $(this).attr("Id")
 			$(this).addClass("hero");
-			$(this).siblings("div").addClass("opponents");
-			hero = $(this).detach();
+			$(this).siblings("div").addClass("opponents"); //turns unpicked hero's into opponents
+			hero = $(this).detach(); //this function singles out your hero profile
 			opponents = $(this).siblings('div').detach();
 			$("#yourHero").append(hero);
 			enemyClick();
@@ -78,7 +78,7 @@ function heroClick(){
 function enemyClick(){
 	$(".opponents").on('click', function(){
 		if (!pickedOpponent){
-			$(this).addClass("currentOpponent")
+			$(this).addClass("currentOpponent") //singles out opponent and detaches it into current opponent
 			opponentId= $(this).attr("Id");
 			opponent = $(this).detach();
 			$("#currentOpponent").append(opponent);
@@ -185,5 +185,5 @@ $(document).ready(function(){
 
 //If Opponents health is 0 the opponent is eliminated then pick a new Opponent.
 
-//Victory: Game is over. A Lion Wolf Dragon Stag Banner will display the background. Button Appears Begin again.
+//Victory: Game is over. A Lion Wolf Dragon Stag Banner will display the background.((TOO MUCH TOO MUCH TOO MUCH!!)) Button Appears Begin again.
 
